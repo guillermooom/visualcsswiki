@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 240, 255);
+    margin: 0;
+}
+main{
+    margin-top:100px;
+    width: 750px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.author{
+    text-align: end;
+}
+.descript{
+    
+    font-size: 20px;
+    text-align: left;
+    line-height: 2;
+
+}
+h3{
+    font-size: 30px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+section a {
+    text-decoration: none;
+    font-size:18px;
+    margin:5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+section a:hover{
+    border: 2px solid #007BFF;
+    color: white;
+    background-color: #007BFF;
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    background-color: rgb(100, 130, 173);;
+    bottom:0 ;
+    position: absolute;
+  }
+  @media (max-width:650px) {
+    footer{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      position: static;
+      bottom: auto;
+    }
+  }
+  #redes  img{
+    width: 50px;
+    height: 50px;
+    margin:10px 20px;
+  }
+  footer > a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+  }
+
+
